@@ -4,9 +4,9 @@ import Footer from "../Home/Footer";
 
 const Root = () => {
     return (
-        <div>
+        <div className="w-11/12 mx-auto">
             <Header></Header>
-            <div className="h-[calc(100vh-300px)]">
+            <div className="min-h-[calc(100vh-290px)]">
             <Outlet></Outlet>
             </div>
             <Footer></Footer>

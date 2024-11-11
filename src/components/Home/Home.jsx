@@ -2,7 +2,7 @@
 const Home = () => {
     return (
 <div
-  className="hero min-h-screen"
+  className="hero max-h-screen"
   style={{
     backgroundImage: "url(https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp)",
   }}>
